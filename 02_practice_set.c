@@ -15,7 +15,7 @@ int main()
 
     total = (physics + chemistry + maths) / 3;
 
-    if (total < 40 || physics < 33 || chemistry < 33 || maths < 33)
+    if (total < 50 || physics < 45 || chemistry < 33 || maths < 32)
     {
         printf("Your percentage is %f and you are fail\n", total);
     }
