@@ -1,19 +1,24 @@
+// Program to display a number if it is negative
+
 #include <stdio.h>
+int main() {
+    int number;
 
-int main()
-{
-    int a;
-    printf("enter the no.\n");
-    scanf("%d", &a);
+    printf("Enter an integer: ");
+    scanf("%d", &number);
 
-    if (a % 2 == 0)
-    {
-        printf("%d is even\n", a);
+    // true if number is less than 0
+    if (number < 0) {
+        printf("You entered %d.\n", number);
     }
-    else
-    {
-        printf("%d is odd\n", a);
-    }
+
+    printf("The if statement is easy.");
 
     return 0;
+}
+if (test expression) {
+    // run code if test expression is true
+}
+else {
+    // run code if test expression is false
 }
